@@ -1,0 +1,15 @@
+name: mocax38
+channels:
+  - conda-forge
+dependencies:
+  - python=3.8
+  - numpy=1.24.4
+  - scipy=1.10.1
+  - pandas=2.0.3
+  - matplotlib=3.7
+  - threadpoolctl
+  - jupyterlab
+  - ipykernel
+  - pip
+  - pip:
+      - scikit_tt @ https://github.com/PGelss/scikit_tt/archive/8f4b0a2420cbed8d56238f8751d920137a8f5a16.zip

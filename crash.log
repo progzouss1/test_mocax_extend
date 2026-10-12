@@ -1,0 +1,72 @@
+Windows fatal exception: code 0xc06d007f
+
+Thread 0x00002a94 (most recent call first):
+  File "c:\Users\ezzahid\miniforge3\envs\mocax38\lib\site-packages\ipykernel\parentpoller.py", line 93 in run
+  File "c:\Users\ezzahid\miniforge3\envs\mocax38\lib\threading.py", line 932 in _bootstrap_inner
+  File "c:\Users\ezzahid\miniforge3\envs\mocax38\lib\threading.py", line 890 in _bootstrap
+
+Thread 0x000039c8 (most recent call first):
+  File "c:\Users\ezzahid\miniforge3\envs\mocax38\lib\threading.py", line 302 in wait
+  File "c:\Users\ezzahid\miniforge3\envs\mocax38\lib\threading.py", line 558 in wait
+  File "c:\Users\ezzahid\miniforge3\envs\mocax38\lib\site-packages\IPython\core\history.py", line 884 in run
+  File "c:\Users\ezzahid\miniforge3\envs\mocax38\lib\site-packages\IPython\core\history.py", line 60 in only_when_enabled
+  File "c:\Users\ezzahid\miniforge3\envs\mocax38\lib\site-packages\decorator.py", line 232 in fun
+  File "c:\Users\ezzahid\miniforge3\envs\mocax38\lib\threading.py", line 932 in _bootstrap_inner
+  File "c:\Users\ezzahid\miniforge3\envs\mocax38\lib\threading.py", line 890 in _bootstrap
+
+Thread 0x000006d4 (most recent call first):
+  File "c:\Users\ezzahid\miniforge3\envs\mocax38\lib\selectors.py", line 314 in _select
+  File "c:\Users\ezzahid\miniforge3\envs\mocax38\lib\selectors.py", line 323 in select
+  File "c:\Users\ezzahid\miniforge3\envs\mocax38\lib\asyncio\base_events.py", line 1823 in _run_once
+  File "c:\Users\ezzahid\miniforge3\envs\mocax38\lib\asyncio\base_events.py", line 570 in run_forever
+  File "c:\Users\ezzahid\miniforge3\envs\mocax38\lib\site-packages\tornado\platform\asyncio.py", line 205 in start
+  File "c:\Users\ezzahid\miniforge3\envs\mocax38\lib\site-packages\ipykernel\control.py", line 23 in run
+  File "c:\Users\ezzahid\miniforge3\envs\mocax38\lib\threading.py", line 932 in _bootstrap_inner
+  File "c:\Users\ezzahid\miniforge3\envs\mocax38\lib\threading.py", line 890 in _bootstrap
+
+Thread 0x000018ec (most recent call first):
+  File "c:\Users\ezzahid\miniforge3\envs\mocax38\lib\site-packages\ipykernel\heartbeat.py", line 106 in run
+  File "c:\Users\ezzahid\miniforge3\envs\mocax38\lib\threading.py", line 932 in _bootstrap_inner
+  File "c:\Users\ezzahid\miniforge3\envs\mocax38\lib\threading.py", line 890 in _bootstrap
+
+Thread 0x00001154 (most recent call first):
+  File "c:\Users\ezzahid\miniforge3\envs\mocax38\lib\selectors.py", line 314 in _select
+  File "c:\Users\ezzahid\miniforge3\envs\mocax38\lib\selectors.py", line 323 in select
+  File "c:\Users\ezzahid\miniforge3\envs\mocax38\lib\asyncio\base_events.py", line 1823 in _run_once
+  File "c:\Users\ezzahid\miniforge3\envs\mocax38\lib\asyncio\base_events.py", line 570 in run_forever
+  File "c:\Users\ezzahid\miniforge3\envs\mocax38\lib\site-packages\tornado\platform\asyncio.py", line 205 in start
+  File "c:\Users\ezzahid\miniforge3\envs\mocax38\lib\site-packages\ipykernel\iostream.py", line 92 in _thread_main
+  File "c:\Users\ezzahid\miniforge3\envs\mocax38\lib\threading.py", line 870 in run
+  File "c:\Users\ezzahid\miniforge3\envs\mocax38\lib\threading.py", line 932 in _bootstrap_inner
+  File "c:\Users\ezzahid\miniforge3\envs\mocax38\lib\threading.py", line 890 in _bootstrap
+
+Current thread 0x00003488 (most recent call first):
+  File "c:\Users\ezzahid\miniforge3\envs\mocax38\lib\site-packages\scipy\linalg\_decomp_qr.py", line 17 in safecall
+  File "c:\Users\ezzahid\miniforge3\envs\mocax38\lib\site-packages\scipy\linalg\_decomp_qr.py", line 142 in qr
+  File "C:\Users\ezzahid\Downloads\MoCaXExtend\Windows\Library\mocaxextendpy\tt_cheb_utils.py", line 720 in orth_right
+  File "C:\Users\ezzahid\Downloads\MoCaXExtend\Windows\Library\mocaxextendpy\tt_cheb_utils.py", line 613 in orthogonalize
+  File "C:\Users\ezzahid\Downloads\MoCaXExtend\Windows\Library\mocaxextendpy\mocax_extend.py", line 978 in run_completion_algo
+  File "C:\Users\ezzahid\Downloads\MoCaXExtend\Windows\Library\mocaxextendpy\mocax_extend.py", line 1349 in run_rank_adaptive_algo
+  File "C:\Users\ezzahid\AppData\Local\Temp\ipykernel_21492\3907578692.py", line 14 in <module>
+  File "c:\Users\ezzahid\miniforge3\envs\mocax38\lib\site-packages\IPython\core\interactiveshell.py", line 3508 in run_code
+  File "c:\Users\ezzahid\miniforge3\envs\mocax38\lib\site-packages\IPython\core\interactiveshell.py", line 3448 in run_ast_nodes
+  File "c:\Users\ezzahid\miniforge3\envs\mocax38\lib\site-packages\IPython\core\interactiveshell.py", line 3269 in run_cell_async
+  File "c:\Users\ezzahid\miniforge3\envs\mocax38\lib\site-packages\IPython\core\async_helpers.py", line 129 in _pseudo_sync_runner
+  File "c:\Users\ezzahid\miniforge3\envs\mocax38\lib\site-packages\IPython\core\interactiveshell.py", line 3064 in _run_cell
+  File "c:\Users\ezzahid\miniforge3\envs\mocax38\lib\site-packages\IPython\core\interactiveshell.py", line 3009 in run_cell
+  File "c:\Users\ezzahid\miniforge3\envs\mocax38\lib\site-packages\ipykernel\zmqshell.py", line 549 in run_cell
+  File "c:\Users\ezzahid\miniforge3\envs\mocax38\lib\site-packages\ipykernel\ipkernel.py", line 449 in do_execute
+  File "c:\Users\ezzahid\miniforge3\envs\mocax38\lib\site-packages\ipykernel\kernelbase.py", line 778 in execute_request
+  File "c:\Users\ezzahid\miniforge3\envs\mocax38\lib\site-packages\ipykernel\ipkernel.py", line 362 in execute_request
+  File "c:\Users\ezzahid\miniforge3\envs\mocax38\lib\site-packages\ipykernel\kernelbase.py", line 437 in dispatch_shell
+  File "c:\Users\ezzahid\miniforge3\envs\mocax38\lib\site-packages\ipykernel\kernelbase.py", line 534 in process_one
+  File "c:\Users\ezzahid\miniforge3\envs\mocax38\lib\site-packages\ipykernel\kernelbase.py", line 545 in dispatch_queue
+  File "c:\Users\ezzahid\miniforge3\envs\mocax38\lib\asyncio\events.py", line 81 in _run
+  File "c:\Users\ezzahid\miniforge3\envs\mocax38\lib\asyncio\base_events.py", line 1859 in _run_once
+  File "c:\Users\ezzahid\miniforge3\envs\mocax38\lib\asyncio\base_events.py", line 570 in run_forever
+  File "c:\Users\ezzahid\miniforge3\envs\mocax38\lib\site-packages\tornado\platform\asyncio.py", line 205 in start
+  File "c:\Users\ezzahid\miniforge3\envs\mocax38\lib\site-packages\ipykernel\kernelapp.py", line 739 in start
+  File "c:\Users\ezzahid\miniforge3\envs\mocax38\lib\site-packages\traitlets\config\application.py", line 1075 in launch_instance
+  File "c:\Users\ezzahid\miniforge3\envs\mocax38\lib\site-packages\ipykernel_launcher.py", line 18 in <module>
+  File "c:\Users\ezzahid\miniforge3\envs\mocax38\lib\runpy.py", line 87 in _run_code
+  File "c:\Users\ezzahid\miniforge3\envs\mocax38\lib\runpy.py", line 194 in _run_module_as_main
